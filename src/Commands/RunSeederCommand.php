@@ -4,8 +4,8 @@ namespace NickKlein\Tags\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use NickKlein\News\Seeders\TagsTableSeeder;
-use NickKlein\News\Seeders\UserTagsTableSeeder;
+use NickKlein\Tags\Seeders\TagsTableSeeder;
+use NickKlein\Tags\Seeders\UserTagsTableSeeder;
 
 class RunSeederCommand extends Command
 {
